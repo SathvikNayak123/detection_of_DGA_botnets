@@ -49,3 +49,7 @@ This project presents a two-stage system to detect and classify DGA (Domain Gene
 ![cm](docs/output1.png)
 
 - Multi-class Classification : 86% accuracy and 0.4 loss
+
+## API interafce
+
+![api](docs/api_interface.jpg)
