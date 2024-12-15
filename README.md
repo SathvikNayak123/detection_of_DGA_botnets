@@ -3,16 +3,7 @@
 ## Overview
 This project presents a two-stage system to detect and classify DGA (Domain Generation Algorithm)-based botnets using advanced Machine Learning (ML) and Deep Learning (DL) techniques. 
 
-```mermaid
-flowchart TD
-    A[Start] --> B[Input Domain Data]
-    B --> C{Stage 1: Binary Classification}
-    C -- Legitimate --> D[Stop]
-    C -- Botnet --> E{Stage 2: Multiclass Classification}
-    E --> F[Identify Botnet Family]
-    F --> G[Output Results]
-    G --> H[Stop]
-```
+![flowchart](docs/Screenshot%202024-12-15%20192739.png)
 
 ## Dataset
 - Binary Classification dataset consisted of 240,000 labelled samples - 120k samples legitimate and 120k botnet-generated web domains(each botnet family consisting 2000 samples).
