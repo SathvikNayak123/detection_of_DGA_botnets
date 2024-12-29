@@ -22,6 +22,7 @@ This project presents a two-stage system to detect and classify DGA (Domain Gene
 - **Hybrid Deep Learning Model:**
   - Utilized Deep learning to classify botnet domains to 60 botnet families, achieving **86% accuracy and 0.4 loss**.
   - Developed a custom hybrid **CNN+Attention** architecture, resulting in a **10% boost in accuracy** and a **26% reduction in loss**.
+  ![model](docs/model.png)
 
 - **Real-Time Prediction API:**
   - Developed a predict pipeline to streamline prediction of user input.
