@@ -22,7 +22,6 @@ This project presents a two-stage system to detect and classify DGA (Domain Gene
 - **Hybrid Deep Learning Model:**
   - Utilized Deep learning to classify botnet domains to 60 botnet families, achieving **86% accuracy and 0.4 loss**.
   - Developed a custom hybrid **CNN+Attention** architecture, resulting in a **10% boost in accuracy** and a **26% reduction in loss**.
-  ![model](docs/model.png)
 
 - **Real-Time Prediction API:**
   - Developed a predict pipeline to streamline prediction of user input.
@@ -43,13 +42,17 @@ This project presents a two-stage system to detect and classify DGA (Domain Gene
    uvicorn app.main:app --reload
    ```
 ## Results
-- Binary Classification : 91% Accuracy and F1-score
+- Binary Classification : 92% test accuracy and 0.9 F1-score for **XGBoost**
+- Reduced False Positives by 20% with Hyperparameter Tuning
 
 ![ROC](docs/output.png)
 
 ![cm](docs/output1.png)
 
-- Multi-class Classification : 86% accuracy and 0.4 loss
+- Multi-class Classification : 86.5% test accuracy and 0.4 loss
+
+![loss](docs/output2.png)
+
 
 ## API interafce
 
